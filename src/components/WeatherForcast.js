@@ -1,10 +1,10 @@
 import React from "react";
 
-const WeatherForecast = ({img, condition, time}) =>{
+const WeatherForecast = ({img, conditions, time}) =>{
     return(
         <div>
             <img src={img}/>
-            <h4>conditions: {condition}</h4>
+            <h4>conditions: {conditions}</h4>
             <h4>time: {time}</h4>
         </div>
     )
