@@ -7,7 +7,7 @@ const weather = Weather.map((ele, index) =>{
     <div className="forecast">
       <WeatherForecast
       img={ele.img}
-      condition={ele.condition}
+      condition={ele.conditions}
       time={ele.time}
       key={index}
       />
